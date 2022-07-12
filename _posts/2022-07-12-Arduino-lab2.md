@@ -1,11 +1,18 @@
-# Lab 1
-[Simple LED control on breadboard](https://www.tinkercad.com/things/7XpqwPmR0yH-neat-hillar/editel?tenant=circuits) this is a simple LED blinking display.
+---
+toc: true
+layout: post
+description: A simple example of blinking an LED with Arduino
+categories: [markdown]
+title: Arduino Lab 1: Simple LED display
+---
 
+# Arduino Lab 1: Simple LED blinking display.
+
+[Simple LED control on breadboard](https://www.tinkercad.com/things/7XpqwPmR0yH-neat-hillar/editel?tenant=circuits) 
 
 # Code
 
-// C++ code
-//
+```
 void setup()
 {
   pinMode(LED_BUILTIN, OUTPUT);
@@ -24,3 +31,4 @@ void loop()
   digitalWrite(LED_BUILTIN, LOW);
   delay(1000); // Wait for 1000 millisecond(s)
 }
+```
