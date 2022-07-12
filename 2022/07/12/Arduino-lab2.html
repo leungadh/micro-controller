@@ -1,20 +1,19 @@
-<h1 id="lab-1">Lab 1</h1>
-<p><a href="https://www.tinkercad.com/things/7XpqwPmR0yH-neat-hillar/editel?tenant=circuits">Simple LED control on breadboard</a> this is a simple LED blinking display.</p>
+<h1 id="arduino-lab-1-simple-led-blinking-display">Arduino Lab 1: Simple LED blinking display.</h1>
+
+<p><a href="https://www.tinkercad.com/things/7XpqwPmR0yH-neat-hillar/editel?tenant=circuits">Simple LED control on breadboard</a></p>
 
 <h1 id="code">Code</h1>
 
-<p>// C++ code
-//
-void setup()
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>void setup()
 {
   pinMode(LED_BUILTIN, OUTPUT);
-  pinMode(3, OUTPUT);</p>
+  pinMode(3, OUTPUT);
 
-<p>digitalWrite(LED_BUILTIN, LOW);
+  digitalWrite(LED_BUILTIN, LOW);
   analogWrite(3, 0);
-}</p>
+}
 
-<p>void loop()
+void loop()
 {
   digitalWrite(LED_BUILTIN, HIGH);
   analogWrite(3, 1);
@@ -22,4 +21,5 @@ void setup()
   analogWrite(3, 0);
   digitalWrite(LED_BUILTIN, LOW);
   delay(1000); // Wait for 1000 millisecond(s)
-}</p>
+}
+</code></pre></div></div>

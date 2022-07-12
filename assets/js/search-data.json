@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "Arduino Lab2",
-            "content": "Lab 1 . Simple LED control on breadboard this is a simple LED blinking display. . Code . // C++ code // void setup() { pinMode(LED_BUILTIN, OUTPUT); pinMode(3, OUTPUT); . digitalWrite(LED_BUILTIN, LOW); analogWrite(3, 0); } . void loop() { digitalWrite(LED_BUILTIN, HIGH); analogWrite(3, 1); delay(1000); // Wait for 1000 millisecond(s) analogWrite(3, 0); digitalWrite(LED_BUILTIN, LOW); delay(1000); // Wait for 1000 millisecond(s) } .",
+            "content": "Arduino Lab 1: Simple LED blinking display. . Simple LED control on breadboard . Code . void setup() { pinMode(LED_BUILTIN, OUTPUT); pinMode(3, OUTPUT); digitalWrite(LED_BUILTIN, LOW); analogWrite(3, 0); } void loop() { digitalWrite(LED_BUILTIN, HIGH); analogWrite(3, 1); delay(1000); // Wait for 1000 millisecond(s) analogWrite(3, 0); digitalWrite(LED_BUILTIN, LOW); delay(1000); // Wait for 1000 millisecond(s) } .",
             "url": "https://leungadh.github.io/micro-controller/2022/07/12/Arduino-lab2.html",
             "relUrl": "/2022/07/12/Arduino-lab2.html",
             "date": " • Jul 12, 2022"
