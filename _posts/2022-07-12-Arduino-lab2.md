@@ -1,11 +1,3 @@
----
-toc: true
-layout: post
-description: A simple example of blinking an LED with Arduino
-categories: [markdown]
-title: Arduino Lab 1: Simple LED display
----
-
 # Arduino Lab 1: Simple LED blinking display.
 
 [Simple LED control on breadboard](https://www.tinkercad.com/things/7XpqwPmR0yH-neat-hillar/editel?tenant=circuits) 
